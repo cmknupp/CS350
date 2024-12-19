@@ -4,9 +4,9 @@ SNHU CS350 coursework - Emerging Sys Arch and Tech
 Summarize the project and what problem it was solving.
 The project was to develop a prototype of a smart thermastat for a home heating embedded system.  The 
 system should check for button presses to change the set temperature every 200ms.  It should also check
-the ambient temperature and compare it to the set temperature every 300ms, turning the heating element on 
+the ambient temperature and compare it to the set temperature every 500ms, turning the heating element on 
 or off as needed and indicating when the heat is one with a red LED. The final requirement was to output system 
-status information in a specified format via wireless connect to the company servers.  
+status information in a specified format via wireless connect to the company servers every second.  
 
 What did you do particularly well?
 I did create a task manager that checked all tasks at the specified  intervals.  I think I commented the code 
